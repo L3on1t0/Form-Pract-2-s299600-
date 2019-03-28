@@ -1,0 +1,74 @@
+body{
+  background-image: url(../img/toys.jpg);
+  background-size: cover;
+}
+form{
+  box-shadow: -1px 1px 60px 10px black;
+  background: rgba(0, 0, 0, 0.6);
+  padding-left: 50px;
+  padding-right: 800px;
+  margin-top: 0px;
+}
+.col-md-7{
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 800px;
+  color: #d1cfcf;
+}
+.col-md-5{
+  background-color: #160349;
+  box-shadow: -1px 1px 60px 10px black;
+  background: rgba(0, 0, 0, 0.6);
+}
+.container {
+  padding: 5px;
+}
+input[type=text] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 25px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+input[type=date]{
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 25px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+h1{
+  color: Black;
+}
+h2{
+  color: White;
+}
+b{
+  color: white;
+  font-size: 15px;
+}
+p{
+  font-size: 20px;
+  text-align:justify;
+  color: White;
+}
+ img{
+   text-decoration-color: white;
+ }
+.registerbtn {
+  background-color: #160349;
+  color: #1b0d44;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 104%;
+  opacity: 0.5;
+  color: white;
+  font-size: 30px;
+}
+.registerbtn:hover {
+  opacity:2;
+}
